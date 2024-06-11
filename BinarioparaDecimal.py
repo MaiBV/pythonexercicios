@@ -2,11 +2,7 @@ def binario_para_decimal(numero_binario):
     """
     Converte um número binário para decimal.
 
-    Argumentos:
-        numero_binario: Uma string que representa o número binário a ser convertido.
 
-    Retorno:
-        Um inteiro que representa o valor decimal do número binário.
     """
 
     # Validação completa do número binário
@@ -18,6 +14,7 @@ def binario_para_decimal(numero_binario):
 
     # Retorna o valor decimal
     return numero_decimal
+
 
 # Exemplo de uso
 numero_binario = input("Digite um número binário: ")
