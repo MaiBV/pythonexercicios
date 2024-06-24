@@ -1,5 +1,5 @@
 print("=" * 30)
-print("      GERADOR DA  PA      ")
+print("      GERADOR DA PA      ")
 print("=" * 30)
 primeiro = int(input("Primeiro termo: "))
 razao = int(input("Razão da PA: "))
