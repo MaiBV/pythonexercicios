@@ -1,8 +1,8 @@
-def contador(i, f, p):
-    c = i
-    while c <= f:
-        print(f'{c} ', end=' ')
-        c += p
+a = int(input('primeiro valor: '))
+b = int(input('Segundo valor: '))
 
-
-contador(0, 100, 10)
+if a > b:
+    print(f'O maior número é {a}')
+else:
+    print(f'O maior valor é {b}')
+print('Final do programa')
